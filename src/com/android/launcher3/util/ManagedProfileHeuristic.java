@@ -113,6 +113,7 @@ public class ManagedProfileHeuristic {
 
         boolean newPackageAdded = false;
 
+        /*
         for (LauncherActivityInfoCompat info : apps) {
             String packageName = info.getComponentName().getPackageName();
             if (!packageSet.contains(packageName)) {
@@ -136,6 +137,7 @@ public class ManagedProfileHeuristic {
             // a very long time).
             finalizeAdditions(userAppsExisted);
         }
+        */
     }
 
     private void markForAddition(LauncherActivityInfoCompat info, long installTime) {
